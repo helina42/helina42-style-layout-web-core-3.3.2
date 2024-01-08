@@ -36,7 +36,10 @@
     height: 40px;
   }
 
-  .main__slide {
+  .main__slide2 {
+    display: none;
+  }
+  .main__slide1 {
     padding: 10px;
     overflow-x: scroll;
     overflow-y: hidden;
@@ -76,6 +79,9 @@
   .main__head1120 {
     display: none;
   }
+  .main__slide2 {
+    display: none;
+  }
 }
 
 @media only screen and (min-width: 768px) {
@@ -100,6 +106,12 @@
 
   .main__head1120 {
     display: none;
+  }
+  .main__slide1 {
+    display: none;
+  }
+  .main__slide2 {
+    display: block;
   }
 }
 
